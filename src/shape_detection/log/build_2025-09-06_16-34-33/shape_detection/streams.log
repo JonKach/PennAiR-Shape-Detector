@@ -1,0 +1,42 @@
+[0.387s] Invoking command in '/Users/jonkach/Documents/Projects/VSCodeProjects/ros2_ws/src/shape_detection': CONDA_PROMPT_MODIFIER=(ros2) PYTHONPATH=/Users/jonkach/Documents/Projects/VSCodeProjects/ros2_ws/src/shape_detection/build/shape_detection/prefix_override:/Users/jonkach/miniconda3/envs/ros2/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/Users/jonkach/Documents/Projects/VSCodeProjects/ros2_ws/src/shape_detection/install/shape_detection/lib/python3.12/site-packages: SHLVL=2 _=/usr/bin/env /Users/jonkach/miniconda3/envs/ros2/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/shape_detection build --build-base /Users/jonkach/Documents/Projects/VSCodeProjects/ros2_ws/src/shape_detection/build/shape_detection/build install --record /Users/jonkach/Documents/Projects/VSCodeProjects/ros2_ws/src/shape_detection/build/shape_detection/install.log --single-version-externally-managed install_data
+[0.525s] running egg_info
+[0.525s] creating build/shape_detection/shape_detection.egg-info
+[0.532s] writing build/shape_detection/shape_detection.egg-info/PKG-INFO
+[0.532s] writing dependency_links to build/shape_detection/shape_detection.egg-info/dependency_links.txt
+[0.533s] writing entry points to build/shape_detection/shape_detection.egg-info/entry_points.txt
+[0.533s] writing requirements to build/shape_detection/shape_detection.egg-info/requires.txt
+[0.533s] writing top-level names to build/shape_detection/shape_detection.egg-info/top_level.txt
+[0.533s] writing manifest file 'build/shape_detection/shape_detection.egg-info/SOURCES.txt'
+[0.549s] reading manifest file 'build/shape_detection/shape_detection.egg-info/SOURCES.txt'
+[0.549s] writing manifest file 'build/shape_detection/shape_detection.egg-info/SOURCES.txt'
+[0.549s] running build
+[0.549s] running build_py
+[0.549s] creating /Users/jonkach/Documents/Projects/VSCodeProjects/ros2_ws/src/shape_detection/build/shape_detection/build
+[0.549s] creating /Users/jonkach/Documents/Projects/VSCodeProjects/ros2_ws/src/shape_detection/build/shape_detection/build/lib
+[0.549s] creating /Users/jonkach/Documents/Projects/VSCodeProjects/ros2_ws/src/shape_detection/build/shape_detection/build/lib/shape_detection
+[0.549s] copying shape_detection/__init__.py -> /Users/jonkach/Documents/Projects/VSCodeProjects/ros2_ws/src/shape_detection/build/shape_detection/build/lib/shape_detection
+[0.549s] copying shape_detection/test.py -> /Users/jonkach/Documents/Projects/VSCodeProjects/ros2_ws/src/shape_detection/build/shape_detection/build/lib/shape_detection
+[0.550s] copying shape_detection/shape_detector_node.py -> /Users/jonkach/Documents/Projects/VSCodeProjects/ros2_ws/src/shape_detection/build/shape_detection/build/lib/shape_detection
+[0.550s] copying shape_detection/video_publisher.py -> /Users/jonkach/Documents/Projects/VSCodeProjects/ros2_ws/src/shape_detection/build/shape_detection/build/lib/shape_detection
+[0.550s] running install
+[0.552s] running install_lib
+[0.560s] creating /Users/jonkach/Documents/Projects/VSCodeProjects/ros2_ws/src/shape_detection/install/shape_detection/lib/python3.12/site-packages/shape_detection
+[0.560s] copying /Users/jonkach/Documents/Projects/VSCodeProjects/ros2_ws/src/shape_detection/build/shape_detection/build/lib/shape_detection/__init__.py -> /Users/jonkach/Documents/Projects/VSCodeProjects/ros2_ws/src/shape_detection/install/shape_detection/lib/python3.12/site-packages/shape_detection
+[0.560s] copying /Users/jonkach/Documents/Projects/VSCodeProjects/ros2_ws/src/shape_detection/build/shape_detection/build/lib/shape_detection/test.py -> /Users/jonkach/Documents/Projects/VSCodeProjects/ros2_ws/src/shape_detection/install/shape_detection/lib/python3.12/site-packages/shape_detection
+[0.560s] copying /Users/jonkach/Documents/Projects/VSCodeProjects/ros2_ws/src/shape_detection/build/shape_detection/build/lib/shape_detection/shape_detector_node.py -> /Users/jonkach/Documents/Projects/VSCodeProjects/ros2_ws/src/shape_detection/install/shape_detection/lib/python3.12/site-packages/shape_detection
+[0.561s] copying /Users/jonkach/Documents/Projects/VSCodeProjects/ros2_ws/src/shape_detection/build/shape_detection/build/lib/shape_detection/video_publisher.py -> /Users/jonkach/Documents/Projects/VSCodeProjects/ros2_ws/src/shape_detection/install/shape_detection/lib/python3.12/site-packages/shape_detection
+[0.561s] byte-compiling /Users/jonkach/Documents/Projects/VSCodeProjects/ros2_ws/src/shape_detection/install/shape_detection/lib/python3.12/site-packages/shape_detection/__init__.py to __init__.cpython-312.pyc
+[0.561s] byte-compiling /Users/jonkach/Documents/Projects/VSCodeProjects/ros2_ws/src/shape_detection/install/shape_detection/lib/python3.12/site-packages/shape_detection/test.py to test.cpython-312.pyc
+[0.562s] byte-compiling /Users/jonkach/Documents/Projects/VSCodeProjects/ros2_ws/src/shape_detection/install/shape_detection/lib/python3.12/site-packages/shape_detection/shape_detector_node.py to shape_detector_node.cpython-312.pyc
+[0.562s] byte-compiling /Users/jonkach/Documents/Projects/VSCodeProjects/ros2_ws/src/shape_detection/install/shape_detection/lib/python3.12/site-packages/shape_detection/video_publisher.py to video_publisher.cpython-312.pyc
+[0.563s] running install_data
+[0.563s] creating /Users/jonkach/Documents/Projects/VSCodeProjects/ros2_ws/src/shape_detection/install/shape_detection/share/ament_index
+[0.563s] creating /Users/jonkach/Documents/Projects/VSCodeProjects/ros2_ws/src/shape_detection/install/shape_detection/share/ament_index/resource_index
+[0.563s] creating /Users/jonkach/Documents/Projects/VSCodeProjects/ros2_ws/src/shape_detection/install/shape_detection/share/ament_index/resource_index/packages
+[0.563s] copying resource/shape_detection -> /Users/jonkach/Documents/Projects/VSCodeProjects/ros2_ws/src/shape_detection/install/shape_detection/share/ament_index/resource_index/packages
+[0.563s] copying package.xml -> /Users/jonkach/Documents/Projects/VSCodeProjects/ros2_ws/src/shape_detection/install/shape_detection/share/shape_detection
+[0.563s] creating /Users/jonkach/Documents/Projects/VSCodeProjects/ros2_ws/src/shape_detection/install/shape_detection/share/shape_detection/launch
+[0.563s] copying launch/detect_shapes.launch.py -> /Users/jonkach/Documents/Projects/VSCodeProjects/ros2_ws/src/shape_detection/install/shape_detection/share/shape_detection/launch
+[0.563s] creating /Users/jonkach/Documents/Projects/VSCodeProjects/ros2_ws/src/shape_detection/install/shape_detection/share/shape_detection/detect_resources
+[0.564s] error: can't copy 'dynamic_video.mp4': doesn't exist or not a regular file
+[0.573s] Invoked command in '/Users/jonkach/Documents/Projects/VSCodeProjects/ros2_ws/src/shape_detection' returned '1': CONDA_PROMPT_MODIFIER=(ros2) PYTHONPATH=/Users/jonkach/Documents/Projects/VSCodeProjects/ros2_ws/src/shape_detection/build/shape_detection/prefix_override:/Users/jonkach/miniconda3/envs/ros2/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/Users/jonkach/Documents/Projects/VSCodeProjects/ros2_ws/src/shape_detection/install/shape_detection/lib/python3.12/site-packages: SHLVL=2 _=/usr/bin/env /Users/jonkach/miniconda3/envs/ros2/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/shape_detection build --build-base /Users/jonkach/Documents/Projects/VSCodeProjects/ros2_ws/src/shape_detection/build/shape_detection/build install --record /Users/jonkach/Documents/Projects/VSCodeProjects/ros2_ws/src/shape_detection/build/shape_detection/install.log --single-version-externally-managed install_data

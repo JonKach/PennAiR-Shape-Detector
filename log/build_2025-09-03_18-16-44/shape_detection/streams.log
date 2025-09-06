@@ -1,0 +1,18 @@
+[0.388s] Invoking command in '/Users/jonkach/Documents/Projects/VSCodeProjects/ros2_ws/build/shape_detection': CONDA_PROMPT_MODIFIER=(ros2) PYTHONPATH=/Users/jonkach/Documents/Projects/VSCodeProjects/ros2_ws/build/shape_detection/prefix_override:/Users/jonkach/miniconda3/envs/ros2/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/Users/jonkach/Documents/Projects/VSCodeProjects/ros2_ws/install/shape_detection/lib/python3.12/site-packages:${PYTHONPATH} SHLVL=2 _=/Users/jonkach/miniconda3/envs/ros2/bin/env /Users/jonkach/miniconda3/envs/ros2/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /Users/jonkach/Documents/Projects/VSCodeProjects/ros2_ws/build/shape_detection/build --no-deps symlink_data
+[0.523s] running develop
+[0.609s] running egg_info
+[0.616s] writing shape_detection.egg-info/PKG-INFO
+[0.616s] writing dependency_links to shape_detection.egg-info/dependency_links.txt
+[0.617s] writing entry points to shape_detection.egg-info/entry_points.txt
+[0.617s] writing requirements to shape_detection.egg-info/requires.txt
+[0.617s] writing top-level names to shape_detection.egg-info/top_level.txt
+[0.632s] reading manifest file 'shape_detection.egg-info/SOURCES.txt'
+[0.633s] writing manifest file 'shape_detection.egg-info/SOURCES.txt'
+[0.641s] running build_ext
+[0.641s] Creating /Users/jonkach/Documents/Projects/VSCodeProjects/ros2_ws/install/shape_detection/lib/python3.12/site-packages/shape-detection.egg-link (link to .)
+[0.642s] Installing shape_detector script to /Users/jonkach/Documents/Projects/VSCodeProjects/ros2_ws/install/shape_detection/lib/shape_detection
+[0.642s] Installing video_publisher script to /Users/jonkach/Documents/Projects/VSCodeProjects/ros2_ws/install/shape_detection/lib/shape_detection
+[0.642s] 
+[0.642s] Installed /Users/jonkach/Documents/Projects/VSCodeProjects/ros2_ws/build/shape_detection
+[0.642s] running symlink_data
+[0.655s] Invoked command in '/Users/jonkach/Documents/Projects/VSCodeProjects/ros2_ws/build/shape_detection' returned '0': CONDA_PROMPT_MODIFIER=(ros2) PYTHONPATH=/Users/jonkach/Documents/Projects/VSCodeProjects/ros2_ws/build/shape_detection/prefix_override:/Users/jonkach/miniconda3/envs/ros2/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/Users/jonkach/Documents/Projects/VSCodeProjects/ros2_ws/install/shape_detection/lib/python3.12/site-packages:${PYTHONPATH} SHLVL=2 _=/Users/jonkach/miniconda3/envs/ros2/bin/env /Users/jonkach/miniconda3/envs/ros2/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /Users/jonkach/Documents/Projects/VSCodeProjects/ros2_ws/build/shape_detection/build --no-deps symlink_data

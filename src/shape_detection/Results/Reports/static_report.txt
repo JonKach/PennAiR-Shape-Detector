@@ -1,0 +1,16 @@
+Static Image Approach: 
+Since the task consisted of identifying and locating shapes from an image, my thought process immediately went to various object segmentation strategies. 
+Since my algorithmic solution needed to work on both static images and videos, a technique like background subtraction was not applicable. 
+Instead, I opted to go for the most straightforward and computationally simple route, which I believed was edge detection. 
+Since each shape, regardless of its color or composition, has a clearly defined edge when compared to the background, 
+I knew I could use those details to isolate the shapes from the background image. 
+After edges were isolated, I needed to filter out false edges through Gaussian blur and morphological dilation, 
+and then find the contours that represented each shape. 
+
+Challenges: I struggled with finding/tuning the appropriate methods to isolate edges effectively and filter out false edges. 
+Additionally, I had difficulty ensuring that two overlapping shapes would merge their total area into one outlined region. 
+I solved the first of these issues by researching auto-tuning methods for edge detection and applying them to my Canny edge detector. 
+Secondly, to ensure overlapping shapes were unified into a single contour, I rendered detected shapes onto a blank canvas, 
+applied heavy blurring, and then re-thresholded to obtain merged contours.
+
+This approach successfully isolated major shapes from the background.

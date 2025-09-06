@@ -1,0 +1,7 @@
+The algorithm performs with very low latency on the test videos. 
+It is able to receive images from a stream, process them, and output them in a stream without any noticeable slowing. 
+However, this was not always the case. My original algorithm relied on “adaptive thresholding” in OpenCV, 
+which is a computationally expensive operation. 
+After further testing, I was able to replace its use case by opting to use heavier blurring techniques, 
+which made much of the background a more solid color (eliminating the need for adaptive thresholding). 
+This was far less computationally expensive than the previous strategies and led to lower latency. 

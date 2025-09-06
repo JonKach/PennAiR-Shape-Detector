@@ -1,0 +1,3 @@
+[console_scripts]
+shape_detector = shape_detection.shape_detector_node:main
+video_publisher = shape_detection.video_publisher:main

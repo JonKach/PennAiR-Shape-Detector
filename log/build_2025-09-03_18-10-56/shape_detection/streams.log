@@ -1,0 +1,26 @@
+[0.049s] Traceback (most recent call last):
+  File "/Users/jonkach/miniconda3/envs/ros2/lib/python3.12/site-packages/colcon_core/executor/__init__.py", line 91, in __call__
+    rc = await self.task(*args, **kwargs)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jonkach/miniconda3/envs/ros2/lib/python3.12/site-packages/colcon_core/task/__init__.py", line 93, in __call__
+    return await task_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jonkach/miniconda3/envs/ros2/lib/python3.12/site-packages/colcon_ros/task/ament_python/build.py", line 102, in build
+    return await extension.build(additional_hooks=additional_hooks)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jonkach/miniconda3/envs/ros2/lib/python3.12/site-packages/colcon_core/task/python/build.py", line 96, in build
+    available_commands = await self._get_available_commands(
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jonkach/miniconda3/envs/ros2/lib/python3.12/site-packages/colcon_core/task/python/build.py", line 194, in _get_available_commands
+    output = await check_output(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/Users/jonkach/miniconda3/envs/ros2/lib/python3.12/site-packages/colcon_core/subprocess.py", line 129, in check_output
+    assert not rc, f'Expected {args} to pass: {stderr_data}'
+           ^^^^^^
+AssertionError: Expected ['/Users/jonkach/miniconda3/envs/ros2/bin/python3.12', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', '--help-commands'] to pass: Traceback (most recent call last):
+  File "/Users/jonkach/Documents/Projects/VSCodeProjects/ros2_ws/src/shape_detection/setup.py", line 1, in <module>
+    from setuptools import find_packages, setup
+  File "/Users/jonkach/miniconda3/envs/ros2/lib/python3.12/site-packages/setuptools/__init__.py", line 10, in <module>
+    import distutils.core
+ModuleNotFoundError: No module named 'distutils'
+

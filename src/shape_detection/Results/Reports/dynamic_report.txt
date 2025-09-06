@@ -1,0 +1,7 @@
+My original algorithm performed very poorly on the background-agnostic video since the edge detector I was using at the time was
+tuned specifically for the “normal” image. 
+After testing many different alternatives (ex. Otsu’s thresholding) and researching, 
+I eventually learned a method to automatically tune the Canny edge detector depending on the contents of an image. 
+This drastically improved my algorithm’s edge detection ability in both normal background and background-agnostic videos. 
+After edge detection was completed accurately, both scenarios (dynamic and normal) looked relatively identical, 
+and so the rest of the algorithm, with small tweaks, was successfully able to detect the shapes in both input types. 
