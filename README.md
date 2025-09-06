@@ -1,8 +1,10 @@
 # PennAiR-Shape-Detector
 My solution to the 2025 Penn AiR Technical Challenge @ The University of Pennsylvania
 
+Normal:
 [![Watch the video](https://drive.google.com/thumbnail?id=1Wq8kXJFXGGS9ta9b8pQ3arzIlol385sa)](https://drive.google.com/file/d/1Wq8kXJFXGGS9ta9b8pQ3arzIlol385sa/view?usp=drive_link)
 
+Background-Agnostic:
 [![Watch the video](https://drive.google.com/thumbnail?id=1ZOV96D86TyChuhMY4ZsTb-QSBo6OWIHw)](https://drive.google.com/file/d/1ZOV96D86TyChuhMY4ZsTb-QSBo6OWIHw/view?usp=drive_link)
 
 EVALUATION INSTRUCTIONS (Just Image Algorithm)
