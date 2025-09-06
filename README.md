@@ -15,6 +15,6 @@ Find all the source code for the shape detection algorithm in src/shape_detectio
 
 Evaluation Instructions (ROS2):
 
-The root folder of this project is the ROS2 Workspace. You can find all the associated ROS2 files (nodes, launch files, etc.) in the src/shape_detection folder. After building the ROS2 workspace, run the project with the following command:
+The root folder of this project is the ROS2 Workspace (colcon build should be run from the root). You can find all the associated ROS2 files (nodes, launch files, etc.) in the src/shape_detection folder (nodes are in src/shape_detection/shape_detection). After building the ROS2 workspace, run the project with the following command:
 - ros2 launch shape_detection detect_shapes.launch.py
-You can then view the output (detection JSONs) by running "ros2 topic echo \contours_json" from your ros2 environment.
+You can then view the output (detection JSONs) by running "ros2 topic echo /contours_json" from your ros2 environment.
