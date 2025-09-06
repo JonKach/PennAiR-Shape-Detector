@@ -10,9 +10,11 @@ Background-Agnostic:
 [![Watch the video](https://drive.google.com/thumbnail?id=1ZOV96D86TyChuhMY4ZsTb-QSBo6OWIHw)](https://drive.google.com/file/d/1ZOV96D86TyChuhMY4ZsTb-QSBo6OWIHw/view?usp=drive_link)
 
 EVALUATION INSTRUCTIONS (Just Image Algorithm)
+
 Find all the source code for the shape detection algorithm in src/shape_detection. The two main files are IMG_SOLUTION.py and VIDEO_SOLUTION.py. The pre-recorded videos and reports for evaluation are in the "Results" folder in the src/shape_detection.
 
 EVALUATION INSTRUCTIONS (ROS2):
+
 The root folder of this project is the ROS2 Workspace. You can find all the associated ROS2 files (nodes, launch files, etc.) in the src/shape_detection folder. From the ROS2 directory, run:
 - colcon build
 - source the correct ROS version for your shell (ex. source install/local_setup.zsh)
