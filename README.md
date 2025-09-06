@@ -1,6 +1,10 @@
 # PennAiR-Shape-Detector
 My solution to the 2025 Penn AiR Technical Challenge @ The University of Pennsylvania
 
+[![Watch the video](https://drive.google.com/thumbnail?id=1Wq8kXJFXGGS9ta9b8pQ3arzIlol385sa)](https://drive.google.com/file/d/1Wq8kXJFXGGS9ta9b8pQ3arzIlol385sa/view?usp=drive_link)
+
+[![Watch the video](https://drive.google.com/thumbnail?id=1ZOV96D86TyChuhMY4ZsTb-QSBo6OWIHw)](https://drive.google.com/file/d/1ZOV96D86TyChuhMY4ZsTb-QSBo6OWIHw/view?usp=drive_link)
+
 EVALUATION INSTRUCTIONS (Just Image Algorithm)
 Find all the source code for the shape detection algorithm in src/shape_detection. The two main files are IMG_SOLUTION.py and VIDEO_SOLUTION.py. The pre-recorded videos and reports for evaluation are in the "Results" folder in the src/shape_detection.
 
